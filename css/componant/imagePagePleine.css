@@ -1,0 +1,15 @@
+.imagePagePleine{
+    width: 100%;
+}
+
+
+@media screen and (min-width:680px){
+    .imagePagePleine{
+        width: 90%;
+    }
+}
+@media screen and (min-width:900px){
+    .imagePagePleine{
+        width: 80%;
+    }
+}

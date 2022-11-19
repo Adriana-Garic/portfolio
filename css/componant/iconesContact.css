@@ -1,0 +1,16 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    
+}
+.iconeContact{
+    display: flex;
+    background-color: rgb(246, 224, 255);   
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+.iconeContact:hover{
+    background-color: rgb(122, 226, 255);
+}

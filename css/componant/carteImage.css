@@ -1,0 +1,44 @@
+.carteImage{
+    border: 2px solid rgb(59, 105, 255);
+    border-radius: 10px;
+    background-color: rgba(76, 83, 161, 0.199);
+    padding: 5px 15px;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 0%;
+}
+.carteImageTitre{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0);
+}
+.carteImageDroite{
+    width: 30%;
+    box-shadow: 0 0 10px #8cf5ff, 0 0 40px #005fee;
+}
+.carteImageGauche{
+    width: 30%;
+    box-shadow: 0 0 10px #ff92fa, 0 0 40px #8f00ee;
+}
+.carteImageDiv{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0);
+    justify-content: space-around;
+    margin-bottom: 3%;
+}
+
+@media screen and (min-width:680px){
+    .carteImage{
+        width: 80%;
+    }
+    .carteImageDroite, .carteImageGauche{
+        width: 25%;
+    }
+}
+@media screen and (min-width:1000px){
+    .carteImage{
+        width: 70%;
+    }
+    .carteImageDroite, .carteImageGauche{
+        width: 20%;
+    }
+}

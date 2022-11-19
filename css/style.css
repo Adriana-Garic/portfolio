@@ -1,0 +1,125 @@
+@import url('componant/menuNav1.css');
+@import url('componant/carteTexte.css');
+@import url('componant/encadreCentre.css');
+@import url('componant/encadrePagePleine.css');
+@import url('componant/imagePagePleine.css');
+@import url('componant/encadreTitre.css');
+@import url('componant/lien.css');
+@import url('componant/imageCentre90.css');
+@import url('componant/iconesContact.css');
+@import url('componant/carteImage.css');
+
+*{
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main{
+    animation: apparition 1s;
+}
+@keyframes apparition{
+    from{
+        opacity: 50%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+
+/*Entête*/
+.nom{
+    width: 40%;
+}
+.titre1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.logo{
+    width: 21%;
+}
+.titre1{
+    font-size: 50px;
+    font-family: Georgia;
+}
+
+/*NavBar*/
+#offcanvasDarkNavbarLabel{
+    font-size: 35px;
+}
+.icone1{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.icon{
+    margin-right: 5%;
+    width: 70px;
+}
+
+/*Page Créa*/
+
+.cover{
+    display: flex;
+    justify-content: center;
+}
+.coverImage{
+    width: 40%;
+    margin: 3%;
+}
+
+#carouselExampleInterval{
+    width: 80%;
+}
+.centre{
+    display: flex;
+    justify-content: center;
+}
+
+/*Responsive*/
+
+@media screen and (min-width:570px){
+    .titre1{
+        font-size:60px;
+    }
+}
+@media screen and (min-width:680px){
+    #carouselExampleIndicators, #carouselExampleControls{
+        width: 80%;
+    }
+    #carouselExampleInterval{
+        width: 70%;
+    }
+}
+@media screen and (min-width:800px){
+    .titre1{
+        font-size: 90px;
+    }
+
+}
+@media screen and (min-width:900px){
+    #carouselExampleInterval{
+        width: 60%;
+    }
+}
+@media screen and (min-width:1000px){
+    #carouselExampleIndicators, #carouselExampleControls{
+        width: 70%;
+    }
+    #carouselExampleInterval{
+        width: 60%;
+    }
+}
+@media screen and (min-width:900px){
+    #carouselExampleInterval{
+        width: 35%;
+    }
+    .coverImage{
+        width: 30%;
+        margin: 3%;
+    }
+    
+}
